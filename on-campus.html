@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 
 <html class="no-js ie9" itemscope="itemscope" itemtype="http://schema.org/Webpage" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title> On-Campus Housing | Admitted Student Information | MSIS | Kelley </title>
@@ -83,59 +84,40 @@
 
 <!-- Local Header Navigation Bar -->
 <div class="rvt-header-local" id="nav-site">
-  <div class="rvt-container-xl">
-    <div class="rvt-header-local__inner" data-rvt-close-click-outside data-rvt-disclosure="local-header-menu">
-      <a class="rvt-header-local__title" href="https://kelley.iu.edu/programs/ms-information-systems/index.html">
+  <div class="rvt-container-xl" style="display: flex; justify-content: flex-start;">
+    <div class="rvt-header-local__inner" data-rvt-close-click-outside data-rvt-disclosure="local-header-menu" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+      <a class="rvt-header-local__title" href="https://kelley.iu.edu/programs/ms-information-systems/index.html" style="flex-shrink: 0;">
         MS in Information Systems
       </a>
-      <button
-        class="rvt-global-toggle rvt-global-toggle--menu rvt-hide-lg-up"
-        aria-expanded="false"
-        data-rvt-disclosure-toggle="local-header-menu">
-        <span class="rvt-sr-only">Toggle local menu</span>
-        <svg height="16" width="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-          <path d="M8,12.46a2,2,0,0,1-1.52-.7L1.24,5.65a1,1,0,1,1,1.52-1.3L8,10.46l5.24-6.11a1,1,0,0,1,1.52,1.3L9.52,11.76A2,2,0,0,1,8,12.46Z" fill="currentColor" />
-        </svg>
-      </button>
 
-      <nav
-        class="rvt-header-menu"
-        data-rvt-disclosure-target="local-header-menu"
-        aria-label="Secondary"
-        hidden>
-        <ul class="rvt-header-menu__list">
-          <li class="rvt-header-menu__item">
-            <a class="rvt-header-menu__link" href="academic-resources.html">
-              Academic Supports
-            </a>
-          </li>
-          <li class="rvt-header-menu__item">
-            <a class="rvt-header-menu__link" href="technical-support.html">
-              Technical Supports
-            </a>
-          </li>
-          <li class="rvt-header-menu__item">
-            <a class="rvt-header-menu__link" href="financial-resources.html">
-              Financial Resources
-            </a>
-          </li>
-          <li class="rvt-header-menu__item rvt-header-menu__item--current">
-            <a class="rvt-header-menu__link" aria-current="page" href="housing.html">
-              Housing Options
-            </a>
-          </li>
-          <li class="rvt-header-menu__item">
-            <a class="rvt-header-menu__link" href="transportation.html">
-              Transportation
-            </a>
-          </li>
-          <li class="rvt-header-menu__item">
-            <a class="rvt-header-menu__link" href="health-wellness.html">
-              Health & Wellness
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div style="display: flex; gap: 0.5rem; flex-shrink: 0; min-width: 0;">
+        <a class="rvt-button" href="admitted-student-information.html">
+          Homepage
+        </a>
+
+        <nav class="rvt-dropdown" data-rvt-dropdown="local-menu">
+          <button class="rvt-button" data-rvt-dropdown-toggle="local-menu" aria-haspopup="true" aria-expanded="false">
+            Resources Menu
+            <svg class="rvt-global-toggle__open" style="margin-left: 0.5rem;" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8,12.46a2,2,0,0,1-1.52-.7L1.24,5.65a1,1,0,1,1,1.52-1.3L8,10.46l5.24-6.11a1,1,0,0,1,1.52,1.3L9.52,11.76A2,2,0,0,1,8,12.46Z" fill="currentColor" />
+            </svg>
+          </button>
+
+          <div class="rvt-dropdown__menu" data-rvt-dropdown-menu="local-menu" hidden>
+            <ul class="rvt-dropdown__menu-list">
+              <li><a class="rvt-dropdown__menu-link" href="academic-resources.html">Academic Support</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="technical-support.html">Technical Support</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="financial-resources.html">Financial Resources</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="housing.html">Housing Options</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="transportation.html">Transportation</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="health-wellness.html">Health & Wellness</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="prerequisite-courses.html">Prerequisite Courses</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="student-organizations.html">Student Organizations</a></li>
+              <li><a class="rvt-dropdown__menu-link" href="contact-info.html">Contact Information</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
 </div>
@@ -187,8 +169,8 @@
             </a>
             <meta content="5" itemprop="position" />
           </li>
-          
-          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+
+          <li class="current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
             <a href="housing.html" itemprop="item">
               <span itemprop="name">Housing Options</span>
             </a>
@@ -211,16 +193,15 @@
         <ul class="rvt-sidenav__list">
           <!-- List items go here -->
 
-
   <li class="rvt-sidenav__item">
     <a class="rvt-sidenav__link" href="academic-resources.html" itemprop="url">
-      <span itemprop="name">Academic Supports</span>
+      <span itemprop="name">Academic Support</span>
     </a>
   </li>
 
   <li class="rvt-sidenav__item">
     <a class="rvt-sidenav__link" href="technical-support.html" itemprop="url">
-      <span itemprop="name">Technical Supports</span>
+      <span itemprop="name">Technical Support</span>
     </a>
   </li>
 
@@ -230,7 +211,7 @@
     </a>
   </li>
 
-  <li class="rvt-sidenav__item rvt-sidenav__item--current">
+  <li class="rvt-sidenav__item">
     <a class="rvt-sidenav__link" aria-current="page" href="housing.html" itemprop="url">
       <span itemprop="name">Housing Options</span>
     </a>
@@ -247,81 +228,35 @@
       <span itemprop="name">Health & Wellness</span>
     </a>
   </li>
+
+  <li class="rvt-sidenav__item rvt-sidenav__item--current">
+    <a class="rvt-sidenav__link" href="prerequisite-courses.html" itemprop="url">
+      <span itemprop="name">Prerequisite Courses</span>
+    </a>
+  </li>
+  <li class="rvt-sidenav__item rvt-sidenav__item--current">
+    <a class="rvt-sidenav__link" href="student-organizations.html" itemprop="url">
+      <span itemprop="name">Student Organizations</span>
+    </a>
+  </li>
+  <li class="rvt-sidenav__item">
+    <a class="rvt-sidenav__link" href="contact-info.html" itemprop="url">
+      <span itemprop="name">Contact Information</span>
+    </a>
+  </li>
 </ul>
 </nav></div>
-    
-      <div class="rvt-layout__wrapper rvt-layout__wrapper--details rvt-container-lg">
-        <div class="rvt-layout__content rvt-p-top-xl rvt-text-center">
-          <h1 class="rvt-ts-32 rvt-m-bottom-md">On-Campus Housing</h1>
-          <p class="rvt-ts-20 rvt-m-bottom-lg">    MSIS students at Indiana University Bloomington can choose from a range of on‑campus graduate housing communities, located just a short walk from classes, the library, and campus amenities:
-</p>
-<div class="rvt-accordion rvt-m-bottom-lg" data-rvt-accordion="housing-accordion">
-  <div class="rvt-accordion__item">
-    <h3 class="rvt-accordion__summary">
-      <button class="rvt-accordion__toggle" data-rvt-accordion-trigger="teter">
-        Teter Quadrangle
-      </button>
-    </h3>
-    <div class="rvt-accordion__panel" data-rvt-accordion-panel="teter">
-      <p>Suite-style housing with shared kitchen/living spaces and optional meal plans.</p>
-    </div>
-  </div>
 
-  <div class="rvt-accordion__item">
-    <h3 class="rvt-accordion__summary">
-      <button class="rvt-accordion__toggle" data-rvt-accordion-trigger="read">
-        Read, Whitten & Atwater Halls
-      </button>
-    </h3>
-    <div class="rvt-accordion__panel" data-rvt-accordion-panel="read">
-      <p>Traditional residence halls with shared bathrooms, near academic buildings.</p>
-    </div>
-  </div>
-
-  <div class="rvt-accordion__item">
-    <h3 class="rvt-accordion__summary">
-      <button class="rvt-accordion__toggle" data-rvt-accordion-trigger="smock">
-        Smock, Biddle, Philanthropic Houses
-      </button>
-    </h3>
-    <div class="rvt-accordion__panel" data-rvt-accordion-panel="smock">
-      <p>Apartment-style buildings geared toward graduate students.</p>
-    </div>
-  </div>
-
-  <div class="rvt-accordion__item">
-    <h3 class="rvt-accordion__summary">
-      <button class="rvt-accordion__toggle" data-rvt-accordion-trigger="towers">
-        University Towers
-      </button>
-    </h3>
-    <div class="rvt-accordion__panel" data-rvt-accordion-panel="towers">
-      <p>Commuter apartments located on campus periphery.</p>
-    </div>
+<!-- Main content -->
+<div class="rvt-layout__wrapper rvt-layout__wrapper--details rvt-container-lg">
+  <div class="rvt-layout__content rvt-p-top-xl rvt-text-center">
+    <h1 class="rvt-ts-32 rvt-m-bottom-md">On-Campus Housing</h1>
+    <p class="rvt-ts-20 rvt-m-bottom-lg">More information coming soon...</p>
   </div>
 </div>
+</main>
 
-
-  <p class="rvt-m-bottom-lg">
-    All housing communities are managed by University Housing & Food Services and include utilities, Wi‑Fi, and proximity to dining, recreation, and campus transit. Application opens mid‑spring—priority given to graduate/medical students.
-  </p>
-
-  <p class="rvt-m-bottom-lg">
-    For details on floor plans, pricing, meal plans, and application processes, visit the official IU Bloomington Graduate & Family Housing page: 
-    <a href="https://housing.indiana.edu/graduate-family/index.html" target="_blank">Graduate & Family Housing – IU Bloomington</a>.
-  </p>
-
-  <p>
-    If you’d like a tour or have specific accessibility needs, contact University Housing directly at housing@iu.edu or 812‑855‑3771.
-  </p>
-</div>
-
-          
-        </div>
-      </div>
-    </main>
-
-    <div aria-labelledby="social-heading" class="rvt-footer-social" role="complementary"><div class="rvt-container-lg"> <h2 class="rvt-sr-only" id="social-heading">Social media</h2>
+<div aria-labelledby="social-heading" class="rvt-footer-social" role="complementary"><div class="rvt-container-lg"> <h2 class="rvt-sr-only" id="social-heading">Social media</h2>
 <ul class="rvt-footer-social__list" style="align-items: center;">
 <li>
 <a href="https://www.instagram.com/kelleymsis/">
@@ -362,9 +297,9 @@
 <svg fill="none" height="40" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg">
 <path d="M20,40A20,20,0,1,0,0,20,20,20,0,0,0,20,40Z" fill="#F7F7F8"></path>
 <path d="M30.05,19.77c0,4.49-4.48,8.12-10,8.12c-1.45,0-2.82-0.25-4.07-0.7c-0.47,0.34-1.22,0.81-2.12,1.19
-c-0.94,0.41-2.07,0.75-3.19,0.75c-0.25,0-0.48-0.15-0.58-0.39c-0.1-0.23-0.04-0.5,0.13-0.68l0.01-0.01
-c0.01-0.01,0.03-0.03,0.05-0.06c0.04-0.05,0.11-0.12,0.19-0.22c0.16-0.19,0.38-0.48,0.59-0.84c0.39-0.65,0.76-1.5,0.84-2.46
-c-1.17-1.33-1.86-2.96-1.86-4.72c0-4.49,4.48-8.13,10-8.13S30.05,15.28,30.05,19.77z" fill="#182534"></path>
+  c-0.94,0.41-2.07,0.75-3.19,0.75c-0.25,0-0.48-0.15-0.58-0.39c-0.1-0.23-0.04-0.5,0.13-0.68l0.01-0.01
+  c0.01-0.01,0.03-0.03,0.05-0.06c0.04-0.05,0.11-0.12,0.19-0.22c0.16-0.19,0.38-0.48,0.59-0.84c0.39-0.65,0.76-1.5,0.84-2.46
+  c-1.17-1.33-1.86-2.96-1.86-4.72c0-4.49,4.48-8.13,10-8.13S30.05,15.28,30.05,19.77z" fill="#182534"></path>
 </svg>
 </a>
 </li>
@@ -401,7 +336,7 @@ c-1.17-1.33-1.86-2.96-1.86-4.72c0-4.49,4.48-8.13,10-8.13S30.05,15.28,30.05,19.77
 <a class="rvt-footer-base__link" href="https://kelley.iu.edu/privacy/">Privacy Notice</a>
 </li>
 <li class="rvt-footer-base__item">
-<a class="rvt-footer-base__link" href="https://www.iu.edu/copyright/index.html?_gl=1*1viuv9w*_ga*MjA3NDE1NTQ4My4xNjc5MDczMjIy*_ga_61CH0D2DQW*MTY5MDgwMzM1MS43OS4xLjE2OTA4MDMzNjkuNDIuMC4w">Copyright</a> © 2025 The Trustees of <a class="rvt-footer-base__link" href="https://www.iu.edu">Indiana University</a>
+<a class="rvt-footer-base__link" href="https://www.iu.edu/copyright/index.html?_gl=1*1viuv9w*_ga*MjA3NDE1NTQ4My4xNjc5MDczMjIy*_ga_61CH0D2DQW*MTY5MDgwMzM1MS43OS4xLjE2OTA4MDMzNjkuNDIuMC4w">Copyright</a> © 2025  The Trustees of <a class="rvt-footer-base__link" href="https://www.iu.edu">Indiana University</a>
 </li>
 </ul>
 </div>
